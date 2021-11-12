@@ -1,0 +1,159 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .center_pic {
+    display: block; 
+     margin-left: auto;
+    margin-right: auto; 
+    /* align-items: center !important;
+    justify-content: center !important; */
+    width: 30%;
+  }
+  .margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .button {
+    /* width: 30%; */
+    padding: 10px 0 10px 0;
+    justify-self: center;
+
+  }
+  .text{
+    text-align: center;
+  }
+ 
+  .top {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .images-parent{
+    display:flex;
+    justify-content:right;
+ }
+
+ .btn-primary {
+  color : #FFFFFF;
+  background-color: #094169;
+  border-color: #094169;
+
+}
+.btn-primary:hover{
+  background-color:#6b8da5;
+}
+.footer{
+  margin-top: 40px ;
+  font-size: 10px;
+  color:#4e4e4e;
+}
+.jumbotron{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.contactus{
+  border: none;
+}
+
+
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  /* border: 0; */
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+  border-color:#16437E;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+.button_query{
+  width : 30%;
+}
+.button_back{
+  background-color: unset;
+  border-width: 2px;
+  border-style: solid;
+  border-color:#0A66C2;
+  font-size: 15px;
+  width : 15%;
+  color: #0A66C2;
+  margin-bottom:20px;
+}
+.button_back:hover{
+  background-color:#6b8da5;
+  border-color:#6b8da5;
+}
+.margin{
+  margin-bottom: 20px;
+}
+
+.button_us{
+  width: 13%;
+  background-color: unset;
+  border-width: 2px;
+  border-style: solid;
+  border-color:#0A66C2;
+  margin-top: 0.925rem;
+  color: #0A66C2;
+}
+  
